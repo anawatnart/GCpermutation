@@ -21,6 +21,8 @@
 %   OUTPUTS
 %           Gz      =   filter's transfer function matrix
 %
+%   Developper: Anawat Nartkulpat
+%
 %========================================================================== 
 function Gz = gen_diagfilter(np,nq,N,option)
 if nargin < 4
