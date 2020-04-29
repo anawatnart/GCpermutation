@@ -14,6 +14,8 @@
 %	OUTPUTS
 %           permdist    =   permutation samples of GC matrix
 %
+%   Developper: Anawat Nartkulpat
+%
 %========================================================================== 
 function permdist = permdist_gc(data,wsize,nperm,nstate)
 [nc,nt] = size(data); nw = floor(nt/wsize);
