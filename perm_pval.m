@@ -9,6 +9,8 @@
 %	OUTPUTS
 %           Fpval       =   p-value matrix corresponding to GC matrix
 %
+%   Developper: Anawat Nartkulpat
+%
 %========================================================================== 
 function Fpval = perm_pval(F,Fdist)
 [n,~,np] = size(Fdist);
