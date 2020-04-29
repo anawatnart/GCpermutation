@@ -22,7 +22,7 @@ function [est_model,sys_n4sid,sys_pem,fit_B,fit_noB,fit_pem] = ssiden_noinput(y,
 %	        z(t+1)      =   Az(t) + w(t)
 %	        y(t)        =   Hz(t) + e(t)
 %
-% Developper: Nattaporn Plubin, Anawat, Jitkomut 
+% Developper: Nattaporn Plubin, Anawat Nartkulpat, Jitkomut Songsiri 
 % 
 % N. Plub-in and J. Songsiri, "State-space Model of EEG Time Series
 % for Learning Granger Causality of Brain Connectivity"
